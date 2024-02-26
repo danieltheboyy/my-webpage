@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <title>
+        My Webpage
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="Daniel logo" src="daniel.jpg.svg" height="100">
+
+    </div>
+    <img id="Banner" src="banner.jpg.jpg" alt="Banner" height="240" width="100%">
+    <h1 style="text-align: center;">
+        About Daniel
+
+    </h1>
+
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                A versatile software developer with expertise in backend development, frontend integration,
+                and blockchain solutions. My skills include working with cloud services to deliver efficient
+                software solutions
+            </p>
+            <p>
+                We also offer:
+            <ol>
+                <li>
+                    <a href="OpeOginni.cloud">
+                        Cloud development bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a href="OpeOginni.cloud">
+                        Frontend development bootcamp
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="team.jpg.jpg" alt="team">
+        </div>
+    </div>
+
+
+
+    <h2>Job Qualification</h2>
+    <div id="jobs">
+
+    </div>
+
+    <table id="jobs-table">
+        <tr class="jobs-header-row">
+            <th>Job title</th>
+            <th>Location</th>
+            <th>Salary</th>
+            <th>Posted on</th>
+        </tr>
+        <tr class="jobs-data-row">
+            <td>Frontend developer</td>
+            <td>Birmingham, UK</td>
+            <td>$5000</td>
+            <td>July 27th, 2023</td>
+        </tr>
+        <tr class="jobs-data-row">
+            <td>Backend developer</td>
+            <td>Quebec, Canada</td>
+            <td>$11000</td>
+            <td>December 27th, 2023</td>
+        </tr>
+        <tr class="jobs-data-row">
+            <td>Web developer</td>
+            <td>Los Angeles, USA</td>
+            <td>$2500</td>
+            <td>February 6th, 2023</td>
+        </tr>
+    </table>
+
+    <div id="application">
+        <h2>Submit Your Application</h2>
+        <form id="application form">
+            <div>
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email address" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="Position">Position Applied For</label><br>
+                <select id="Position" name="position applied" required>
+                    <option value="">Select Position</option>
+                    <option value="frontend">Frontend Developer</option>
+                    <option value="backend">Backend Developer</option>
+                    <option value="web developer">Web Developer</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept="pdf, .doc, .docx" required>
+            </div>
+            <div class="form-group">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="5" required
+                    placeholder="Explain what makes you suitable for the job"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                </label>
+            </div>
+            <div class="form-group">
+<input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="OpeOginni.cloud">
+                    Courses
+                </a>
+            </li>
+            <li>
+                <a href="OpeOginni.cloud">
+                    Programs
+                </a>
+            </li>
+            <li>
+                <a href="https://youtu.be/dX8396ZmSPk?si=J-t5JJllo_A2aMm6" target="_blank">
+                    Youtube
+                </a>
+            </li>
+        </ul>
+        <span class="copyright">© 2024, Daniel</span>
+    </div>
+
+</body>
+
+</html>
