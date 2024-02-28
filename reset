@@ -1,0 +1,12 @@
+[33mcommit ecd952afa64b76c81fde3829171533c008938a53[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: daniel_theboyy <danieltheboyy890@gmail.com>
+Date:   Mon Feb 26 12:01:17 2024 +0100
+
+    inital commit
+
+ banner.jpg.jpg | Bin [31m0[m -> [32m233462[m bytes
+ daniel.jpg.svg |   1 [32m+[m
+ index.html     | 158 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ styles.css     | 128 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ team.jpg.jpg   | Bin [31m0[m -> [32m150354[m bytes
+ 5 files changed, 287 insertions(+)
